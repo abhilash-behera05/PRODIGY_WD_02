@@ -1,0 +1,94 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7eb3cb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 0px;
+    color: #2F4F4F;
+}
+
+img{
+    height: 200px;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timeDisplay {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: #FF6347;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1rem;
+    border: none;
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #26313f;
+    transform: scale(1.1);
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    background-color: #b8a45420;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Gradient Circle */
+.circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #4a90e2, #6b8ee3);
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+/* Gradient Half Circle */
+.half-circle {
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(90deg, #4a90e2, #6b8ee3);
+    border-radius: 100px 100px 0 0;
+    margin: 20px auto;
+}
